@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button_icrement{
+    @apply bg-green-500 rounded-lg p-1 m-4 hover:bg-green-700 
+    }
+    
+    .button_About{
+        @apply bg-red-500 rounded-lg p-1 m-4 hover:bg-red-700 
+    }
+}
